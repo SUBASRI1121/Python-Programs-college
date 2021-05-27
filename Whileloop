@@ -1,0 +1,8 @@
+#Subtract the numbers using while loop
+
+n = int(input("Enter a number : "))
+i = 20
+while i>=n:
+	print(i)
+	i = i - 3
+print("DONE")
