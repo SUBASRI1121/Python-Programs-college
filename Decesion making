@@ -1,0 +1,17 @@
+# Program to find the Grade points using decesion making
+
+mark = int(input("Enter the mark :"))
+if mark > 95:
+	print("Grade-O PASS Excellent")
+elif mark > 90:
+	print("Grade-A+ PASS Very Good")
+elif mark > 85:
+	print("Grade-A PASS Good")
+elif mark > 80:
+	print("Grade-B+ PASS Try to get more mark ")
+elif mark > 70:
+	print("Grade-C PASS Need to improve")
+elif mark > 50 - 60:
+	print("Grade-D PASS Need to improve")
+else:
+	print("FAIL better luck next time")
