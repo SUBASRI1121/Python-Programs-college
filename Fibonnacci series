@@ -12,3 +12,4 @@ while(count <= n):
   a = b
   b = sum
   sum = a + b
+
